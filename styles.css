@@ -1,0 +1,27 @@
+body {
+      display: flex;
+      min-height: 100vh;
+    }
+    #sidebar {
+      width: 240px;
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 1rem;
+    }
+    #sidebar a {
+      color: #f3d17c;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+    #sidebar a.activo {
+      font-weight: bold;
+      color: #ec9c59;
+    }
+    #contenido-principal {
+      flex-grow: 1;
+      background-color: #f8f9fa;
+      padding: 2rem;
+    }
